@@ -5,7 +5,7 @@ import matplotlib.animation as animation
 
 fig, ax = plt.subplots()#задаем фигуру
 
-point, = ax.plot([], [], 'bo', ms = 15 )#шарик
+point, = ax.plot([], [], 'bo', ms = 20 )#шарик
 coord = np.array([10.,8.])#координата начала движения
 v = np.array([0.,0.])#вектор скорости
 
